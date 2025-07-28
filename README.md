@@ -18,7 +18,7 @@ Below is a table with the structure of the tokyy directory.
 |          |              | Metric                    | Computes metrics.                                                                                         |
 | .        | trainer      | Trainer                   | Contains all steps to train a model, from loading dataset, to training on it.                             |
 | .        | utils        | LogType                   | Used by log_message function to log messages inside the console.                                          |
-| models   | resunet      | DEPRECIATED               | DEPRECIATED                                                                                               |
+| models   | resunet      | DEPRECATED                | DEPRECATED                                                                                                |
 |          | resunet2     | ResBlock                  | Residual CNN Block                                                                                        |
 |          |              | SEBlock                   | Squeeze & Excitation Network                                                                              |
 |          |              | ChannelAttentionModule    | Used in CBAM                                                                                              |
