@@ -9,8 +9,6 @@ TokYy is a framework developed upon the PyTorch framework to build different Dee
 
 Below is a table with the structure of the tokyy directory. 
 
-> Example of importing class ResUNet: `from tokyy.models.models import ResUNet`
-
 | dir_name | file_name    | class                  | class_description                                                                                         |
 |----------|--------------|------------------------|-----------------------------------------------------------------------------------------------------------|
 | datasets | nyudepthv2   | Dataset                | Parses locally downloaded NYU-Depth-V2 dataset. Used to create dataset loaders.                           |
@@ -32,3 +30,5 @@ Below is a table with the structure of the tokyy directory.
 |          |              | Encoder                | Encoder part of an U-Net using ResCBAMBlock by default.                                                   |
 |          |              | DecoderBlock           | Block in the decoder part of the U-Net (Does not implement full decoder) using Attention Gates by default |
 |          |              | ResUNet                | Residual U-Net with Attention Gates using Encoder and DecoderBlock.                                       |
+
+> Example of importing class ResUNet: `from tokyy.models.models import ResUNet`
