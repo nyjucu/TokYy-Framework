@@ -9,7 +9,7 @@ TokYy is a framework developed upon the PyTorch framework to build different Dee
 
 Below is a table with the structure of the tokyy directory. 
 
-> Example of importing class ResUNet: `rom tokyy.models.models import ResUNet`
+> Example of importing class ResUNet: `from tokyy.models.models import ResUNet`
 
 | dir_name | file_name    | class                  | class_description                                                                                         |
 |----------|--------------|------------------------|-----------------------------------------------------------------------------------------------------------|
