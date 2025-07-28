@@ -10,7 +10,7 @@ TokYy is a framework developed upon the PyTorch framework to build different Dee
 | dir_name | file_name    | class                  | class_description                                                                                         |
 |----------|--------------|------------------------|-----------------------------------------------------------------------------------------------------------|
 | datasets | nyudepthv2   | Dataset                | Parses locally downloaded NYU-Depth-V2 dataset. Used to create dataset loaders.                           |
-| losses   | losses       | AWLoss                 | [ 0.1 * l1_loss + gradient_loss + ssim_loss ] Used for loss between same sized images.                    |
+| losses   | losses       | AWLoss                 | [ `0.1 * l1_loss + gradient_loss + ssim_loss` ] Used for loss between same sized images.                    |
 | .        | checkpointer | Checkpointer           | Monitors, saves and loads model information.                                                              |
 | .        | metrics      | Metrics                | Enum holding the metrics allowed to be computed.                                                          |
 |          |              | Metric                 | Computes metrics.                                                                                         |
