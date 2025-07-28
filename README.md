@@ -19,7 +19,7 @@ Below is a table with the structure of the tokyy directory.
 | .        | trainer      | Trainer                | Contains all steps to train a model, from loading dataset, to training on it.                             |
 | .        | utils        | LogType                | Used by log_message function to log messages inside the console.                                          |
 | models   | resunet      | DEPRECIATED            | DEPRECIATED                                                                                               |
-|          | models       | ResBlock               | Residual CNN Block                                                                                        |
+|          | resunet2     | ResBlock               | Residual CNN Block                                                                                        |
 |          |              | SEBlock                | Squeeze & Excitation Network                                                                              |
 |          |              | ChannelAttentionModule | Used in CBAM                                                                                              |
 |          |              | SpatialAttentionModule | Also used in CBAM, after ChannelAttentionModule.                                                          |
@@ -31,4 +31,4 @@ Below is a table with the structure of the tokyy directory.
 |          |              | DecoderBlock           | Block in the decoder part of the U-Net (Does not implement full decoder) using Attention Gates by default |
 |          |              | ResUNet                | Residual U-Net with Attention Gates using Encoder and DecoderBlock.                                       |
 
-> Example of importing class ResUNet: `from tokyy.models.models import ResUNet`
+> Example of importing class ResUNet: `from tokyy.models.resunet2 import ResUNet`
