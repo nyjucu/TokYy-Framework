@@ -7,6 +7,10 @@ TokYy is a framework developed upon the PyTorch framework to build different Dee
 
 # File structures
 
+Below is a table with the structure of the tokyy directory. 
+
+> Example of importing class ResUNet: `rom tokyy.models.models import ResUNet`
+
 | dir_name | file_name    | class                  | class_description                                                                                         |
 |----------|--------------|------------------------|-----------------------------------------------------------------------------------------------------------|
 | datasets | nyudepthv2   | Dataset                | Parses locally downloaded NYU-Depth-V2 dataset. Used to create dataset loaders.                           |
